@@ -1,0 +1,7 @@
+.dash_menu li a{
+    padding: 10px 0px;
+    display: block;
+    font-size: 20px;
+    /* color: #000; */
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+{
+  "product": [],
+  "category": [],
+  "tags": [
+    {
+      "id": 3,
+      "name": "easy FASHION ",
+      "slug": "easy-fashion-"
+    },
+    {
+      "id": 4,
+      "name": "flowe fashion",
+      "slug": "flowe-fashion"
+    },
+    {
+      "id": 5,
+      "name": "hello Fashion",
+      "slug": "hello-fashion"
+    },
+    {
+      "id": 6,
+      "name": "man jinse",
+      "slug": "man-jinse"
+    }
+  ]
+}
