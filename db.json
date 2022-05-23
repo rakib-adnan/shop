@@ -1,26 +1,152 @@
 {
-  "product": [],
-  "category": [],
-  "tags": [
+  "product": [
+    {
+      "name": "T-Shirt And Trouser Set for Men",
+      "slug": "t-shirt-and-trouser-set-for-men",
+      "reg_price": "200",
+      "sale_price": "190",
+      "sort_dec": "Product details of T-Shirt And Trouser Set for Men - Soft fabric and comfortable",
+      "rating": "5",
+      "photo": "https://media.gq.com/photos/61f31ab5820feb128b83a635/master/w_2000,h_1333,c_limit/Buck-Mason-Field-Spec-cotton-vintage-surplus-tee.jpg",
+      "categoryId": "3",
+      "tagsId": "2",
+      "id": 3
+    },
+    {
+      "name": "Magna Nam voluptatem",
+      "slug": "magna-nam-voluptatem",
+      "reg_price": "888",
+      "sale_price": "777",
+      "sort_dec": "Sit vitae debitis i",
+      "rating": "5",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g_FLFw4ZNnE3VZ6f7tRg07tCn-wlOv84qs-qTZ4-A2B-ZCfD9qNqI1jjjlzGM0pNgKo&usqp=CAU",
+      "categoryId": "5",
+      "tagsId": "1",
+      "id": 4
+    },
+    {
+      "name": "Men\"s shirt",
+      "slug": "men\"s-shirt",
+      "reg_price": "120",
+      "sale_price": "100",
+      "sort_dec": "This Shirt Is vary compfortbale +",
+      "rating": "2",
+      "photo": "https://fabrilife.com/image-gallery/61a794e19d4b4-square.jpg",
+      "categoryId": "5",
+      "tagsId": "4",
+      "id": 5
+    },
+    {
+      "name": "Vitae accusamus faci",
+      "slug": "vitae-accusamus-faci",
+      "reg_price": "44",
+      "sale_price": "66",
+      "sort_dec": "Consectetur earum e",
+      "rating": "4",
+      "photo": "https://4.imimg.com/data4/TI/IK/MY-9879726/designer-sports-t-shirts-250x250.jpg",
+      "categoryId": "8",
+      "tagsId": "2",
+      "id": 6
+    },
+    {
+      "name": "Vitae accusamus faci",
+      "slug": "vitae-accusamus-faci",
+      "reg_price": "44",
+      "sale_price": "66",
+      "sort_dec": "Consectetur earum e",
+      "rating": "4",
+      "photo": "https://4.imimg.com/data4/TI/IK/MY-9879726/designer-sports-t-shirts-250x250.jpg",
+      "categoryId": "8",
+      "tagsId": "2",
+      "id": 7
+    },
+    {
+      "name": "Vitae accusamus faci",
+      "slug": "vitae-accusamus-faci",
+      "reg_price": "44",
+      "sale_price": "66",
+      "sort_dec": "Consectetur earum e",
+      "rating": "4",
+      "photo": "https://4.imimg.com/data4/TI/IK/MY-9879726/designer-sports-t-shirts-250x250.jpg",
+      "categoryId": "8",
+      "tagsId": "2",
+      "id": 8
+    },
+    {
+      "name": "sari",
+      "slug": "sari",
+      "reg_price": "300",
+      "sale_price": "200",
+      "sort_dec": "sdjfslkfjaskfjs`",
+      "rating": "3",
+      "photo": "https://assets.vogue.in/photos/611e3c27654a8f4f70219294/master/pass/Janhvi%20Kapoor%20purple%20sequin%20Manish%20Malhotra%20sari.jpg",
+      "categoryId": "4",
+      "tagsId": "1",
+      "id": 9
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "RH Fashion",
+      "slug": "rh-fashion"
+    },
+    {
+      "id": 2,
+      "name": "easy fashion",
+      "slug": "easy-fashion"
+    },
     {
       "id": 3,
+      "name": "easy",
+      "slug": "easy"
+    },
+    {
+      "id": 4,
+      "name": "rimond",
+      "slug": "rimond"
+    },
+    {
+      "id": 5,
+      "name": "t Shirt",
+      "slug": "t-shirt"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
       "name": "easy FASHION ",
       "slug": "easy-fashion-"
     },
     {
-      "id": 4,
+      "id": 2,
       "name": "flowe fashion",
       "slug": "flowe-fashion"
     },
     {
-      "id": 5,
+      "id": 3,
       "name": "hello Fashion",
       "slug": "hello-fashion"
     },
     {
-      "id": 6,
+      "id": 4,
       "name": "man jinse",
       "slug": "man-jinse"
+    },
+    {
+      "id": 5,
+      "name": "hello",
+      "slug": "hello"
+    },
+    {
+      "id": 6,
+      "name": "hello brand",
+      "slug": "hello-brand"
+    },
+    {
+      "id": 7,
+      "name": "hello brand",
+      "slug": "hello-brand"
     }
   ]
 }

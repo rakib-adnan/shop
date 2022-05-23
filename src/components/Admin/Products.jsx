@@ -1,13 +1,14 @@
 import React from 'react';
 import { Button, Table } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-const Products = () => {
+const Products = ({product}) => {
   return (
     <>
     <h1>Products</h1>
     <hr />
     <div className="btn">
-        <Button variant='success'  className=' '>Add New Products </Button>
+        <Link to={'/admin/productAdd'}  className=' btn btn-sm btn-primary '>Add New Products </Link>
       </div>
       <br />
       <hr />
@@ -21,16 +22,19 @@ const Products = () => {
         </tr>
       </thead>
       <tbody>
+       {
+         product.map(( (data,index) => 
           <tr>
-            <td>1</td>
-            <td>T-shirt</td>
-            <td>men</td>
-            <td>
-                <Button className='btn-sm' variant="info">View</Button>
-                <Button className='btn-sm' variant='warning'>Edit</Button>
-                <Button className='btn-sm' variant='danger'>Delete</Button>
-            </td>
-          </tr>
+          <td>{index + 1}</td>
+          <td>{data.name}</td>
+          <td>{data.slug}</td>
+          <td>
+              <Button className='btn-sm' variant="info">View</Button>
+              <Button className='btn-sm' variant='warning'>Edit</Button>
+              <Button className='btn-sm' variant='danger'>Delete</Button>
+          </td>
+        </tr>))
+       }
       </tbody>
     </Table>
   </>

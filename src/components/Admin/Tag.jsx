@@ -4,11 +4,9 @@ import { Button, Form, Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-const Tag = () => {
+const Tag = ({tags}) => {
 
-    //tsg show for table useState
 
-      const [tags ,setTags] = useState([]);
 
       // <!-- ========== Delete Tags Start ========== -->
           const handletagDelete = (id) =>{
@@ -16,12 +14,7 @@ const Tag = () => {
           }
      // <!-- ========== End Section ========== -->
        
-      useEffect(() =>{
-
-          axios.get('http://localhost:5050/tags').then(res => {
-            setTags(res.data.reverse());
-          });
-      },[tags])
+  
 
       /**<======Edit Form Tag start=======> */
 
